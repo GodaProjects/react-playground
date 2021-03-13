@@ -5,4 +5,5 @@ https://reactjs.org/docs/getting-started.html
 
 
 ## TODO
-https://code.visualstudio.com/docs/nodejs/reactjs-tutorial (also linting)
+1. https://code.visualstudio.com/docs/nodejs/reactjs-tutorial (also linting)
+2. React without JSX

@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 //My changes
-import HelloWorld from './components/HelloWorld'
+import HelloWorldUsingProps from './components/HelloWorldUsingProps'
+import TimeTickerUsingState from './components/TimeTickerUsingState'
 
 ReactDOM.render(
   <React.StrictMode>
-    <HelloWorld name="Godakrishna" />
+    <HelloWorldUsingProps name="Godakrishna" />
+    <hr/>
+    <TimeTickerUsingState/>
   </React.StrictMode>,
   document.getElementById('root')
 );
