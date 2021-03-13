@@ -9,7 +9,6 @@ import HelloWorldUsingProps from './components/HelloWorldUsingProps'
 import TimeTickerUsingState from './components/TimeTickerUsingState'
 import {TodoApp} from './components/TodoAppEventHandling'
 import MarkDownExample from './components/MarkdownExampleExternalPlugins'
-import Testing from './components/Testing'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +19,8 @@ ReactDOM.render(
     <TodoApp/>
     <hr/>
     <MarkDownExample/>
+    <hr/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
