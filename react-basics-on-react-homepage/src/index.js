@@ -7,12 +7,14 @@ import reportWebVitals from './reportWebVitals';
 //My changes
 import HelloWorldUsingProps from './components/HelloWorldUsingProps'
 import TimeTickerUsingState from './components/TimeTickerUsingState'
+import {TodoApp} from './components/TodoAppEventHandling'
 
 ReactDOM.render(
   <React.StrictMode>
     <HelloWorldUsingProps name="Godakrishna" />
     <hr/>
     <TimeTickerUsingState/>
+    <TodoApp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
