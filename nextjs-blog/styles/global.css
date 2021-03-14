@@ -1,0 +1,10 @@
+body {
+    border: 1px;
+    border-color: tomato;
+    border-style: solid;
+    /* background-color: black; */
+}
+
+.anotherClass {
+    font-size: large;
+}
