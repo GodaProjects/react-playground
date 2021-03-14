@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import Layout from '../../components/Layout123'
 
+// Server side props for SSR and getStaticProps for SSG
 export async function getServerSideProps() {
     const allPostsData = getSortedPostsData()
     return {
